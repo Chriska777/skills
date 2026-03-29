@@ -1,0 +1,7 @@
+interface:
+  display_name: "PPTX Study Framework"
+  short_description: "Turn lecture PPTX files into structured study guides"
+  default_prompt: "Use $pptx-study-framework to reorganize these PPTX files into a progressive study framework with intuitive examples."
+
+policy:
+  allow_implicit_invocation: true
