@@ -1,0 +1,3 @@
+display_name: Personal Output Defaults
+short_description: Applies the user's default output-file preferences
+default_prompt: Apply the user's saved output defaults before generating files.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex CLI Commands"
+  short_description: "List and explain Codex CLI slash commands in Chinese."
+  default_prompt: "Use $codex-cli-commands to show the available Codex CLI slash commands and explain what each one does."

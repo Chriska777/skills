@@ -33,6 +33,11 @@ For each important concept, prefer adding:
 - one容易混淆的反例 or 非例
 - one最小题型示范 if the PPT content supports it
 
+For each important theorem, if the statement is not intuitive enough, its role is not clear from the slides, or it is relatively complex and the slides omit the proof, prefer adding:
+
+- one简短证明思路 or 证明骨架
+- one能直接说明定理用途的例子
+
 When the user wants to “彻底学会”, prioritize explanation quality over compression. The output should help the learner understand why a definition is introduced, what problem it solves, and how it is used in typical exercises.
 
 ## Workflow
@@ -61,6 +66,7 @@ When the user wants to “彻底学会”, prioritize explanation quality over c
 - Surface prerequisite relations explicitly.
 - For abstract algebra topics, explain with concrete examples whenever possible.
 - If a concept is easy to confuse, add one counterexample or a “why this is not enough” note.
+- If a theorem is not intuitive enough, is unclear, or is relatively complex but lacks a proof in the slides, add a short proof sketch and one illustrative example when the source content or standard context supports it.
 - If a theorem is used for solving problems, add a short “how to use it in questions” hint.
 - If examples in the PPT are partial or formula-heavy, keep the framework stable and avoid inventing unsupported details.
 
@@ -94,6 +100,8 @@ then include a top-level tree structure. Markdown headings are usually enough. I
 - For finite decks, extracted text is often noisy. Clean OCR-like spacing and repeated footers mentally before reorganizing.
 - Repeated chapter review pages should be merged into the final checklist rather than preserved as standalone sections.
 - Mathematical symbols may not extract perfectly; preserve only what is clear from context.
+- Keep proof sketches short and dependency-aware; if the theorem is hard to internalize, use the proof sketch to expose the key idea rather than every algebraic step.
+- If the source does not support a reliable proof, state the intuition or proof idea instead of fabricating a full derivation.
 
 ## Typical user requests this skill should handle
 
